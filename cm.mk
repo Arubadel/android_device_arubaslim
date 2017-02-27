@@ -19,15 +19,15 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Inherit device files
-$(call inherit-product, device/samsung/delos3geur/delos3geur.mk)
+$(call inherit-product, device/samsung/arubaslim/arubaslim.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := cm_delos3geur
+PRODUCT_NAME := cm_arubaslim
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-I8552
+PRODUCT_MODEL := GT-I8262
 PRODUCT_RELEASE_NAME := GT-I8552
-PRODUCT_DEVICE := delos3geur
+PRODUCT_DEVICE := arubaslim
 
 ## Bootanimation
 TARGET_SCREEN_HEIGHT := 800

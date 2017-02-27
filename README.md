@@ -1,4 +1,4 @@
-CyanogenMod 10.1 device configuration for Samsung Galaxy Win - GT-I8552
+CyanogenMod 10.1 device configuration for Samsung Galaxy Core - GT-I8262
 
 Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.

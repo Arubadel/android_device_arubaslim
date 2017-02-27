@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/delos3geur/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/arubaslim/overlay
 
 include device/samsung/msm7x27a-common/msm7x27a.mk
 
@@ -22,11 +22,11 @@ PRODUCT_PACKAGES += \
 
 ## Splash screen
 PRODUCT_COPY_FILES += \
-    device/samsung/delos3geur/rootdir/initlogo.rle:root/initlogo.rle \
-    device/samsung/delos3geur/rootdir/initlogo_swa.rle:root/initlogo_swa.rle
+    device/samsung/arubaslim/rootdir/initlogo.rle:root/initlogo.rle \
+    device/samsung/arubaslim/rootdir/initlogo_swa.rle:root/initlogo_swa.rle
 
 ## Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml 
 
-$(call inherit-product, vendor/samsung/delos3geur/delos3geur-vendor.mk)
+$(call inherit-product, vendor/samsung/arubaslim/arubaslim-vendor.mk)
