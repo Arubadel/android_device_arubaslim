@@ -1,7 +1,7 @@
 #!/bin/bash
 
-VENDOR=samsung
-DEVICE=arubaslim
+export VENDOR=samsung
+export DEVICE=arubaslim
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary
 rm -rf $BASE/*

@@ -5,67 +5,35 @@ etc/firmware/yamato_pfp.fw
 etc/firmware/yamato_pm4.fw
 bin/hci_qcomm_init
 bin/abtfilt
-bin/qmuxd
 bin/rmt_storage
 bin/fmconfig
-bin/netmgrd
-bin/hostapd
 bin/bccmd
-lib/libdsm.so
-lib/libpbmlib.so
-lib/libdsprofile.so
 lib/libmm-adspsvc.so
 lib/libgemini.so
-lib/libnetmgr.so
-lib/libgstk_exp.so
 lib/libmmjpeg.so
-lib/libqc-opt.so
 lib/libmmosal.so
 lib/libmmipl.so
 lib/libqueue.so
-lib/libqdi.so
-lib/libqdp.so
 lib/libmm-abl-oem.so
-lib/liboncrpc.so
-lib/libdss.so
-lib/libnv.so
-lib/libmmgsdilib.so
 lib/libDivxDrm.so
 lib/libmmparser.so
 lib/liboem_rapi.so
-lib/libcm.so
 lib/hw/sensors.default.so:lib/hw/sensors.msm7x27a.so
-lib/libdsutils.so
-lib/libidl.so
-lib/libdiag.so
-lib/libgsdi_exp.so
-lib/libdsi_netctrl.so
 lib/libdivxdrmdecrypt.so
 lib/libmm-abl.so
-lib/libwms.so
-lib/libauth.so
 
 #RIl
-bin/sec-ril
-bin/rild
-bin/qmiproxy
 bin/cnd
 bin/ds_fmc_appd
-lib/libril.so
-lib/libril-qcril-hook-oem.so
-lib/libsecril-client.so
 lib/libqmi_client_griffon.so
-lib/libril-qc-qmi-1.so
-lib/libqmi_client_qmux.so
-lib/libcneqmiutils.so
-lib/libqmiservices.so
-lib/libqmi.so
-lib/libqmi_csvt_srvc.so
-lib/libqcci_legacy.so
 lib/libatparser.so
 lib/libfactoryutil.so
 lib/libomission_avoidance.so
 lib/libnvaccessor.so
+lib/libdiag.so
+lib/libnv.so
+lib/libqc-opt.so
+lib/libnetmgr.so
 
 ## graphics
 
@@ -91,7 +59,6 @@ lib/libgsl.so
 
 ## camera
 lib/hw/camera.msm7627a.so:lib/hw/camera.msm7x27a.so
-lib/liboemcamera.so
 lib/libsecnativefeature.so
 lib/libmmcamera_image_stab.so
 lib/libmmcamera_frameproc.so
@@ -145,7 +112,6 @@ bin/mm-aenc-omxaac-test
 bin/mm-adec-omxQcelpHw-test
 lib/libOmxAdpcmDec.so
 lib/libOmxAmrwbDec.so
-lib/libOmxCore.so
 lib/libOmxWmaDec.so
 lib/libOmxAacDec.so
 lib/libOmxIttiamVdec.so
@@ -189,22 +155,8 @@ lib/libimage-jpeg-enc-omx-comp.so
 
 ## Audio
 lib/libaudcal.so
-lib/libaudioparameter.so
 lib/libaudioeq.so
 lib/libmm-audio-resampler.so
-lib/libmvsechocanceler.so
-lib/libSamsungAnimation.so
-lib/libsamsungDiamondVoice.so
-lib/libSamsungPDLComposer_MD.so
-lib/libsamsungpowersound.so
-lib/libsamsungRecord.so
-lib/lib_SamsungRec_V02002.so
-lib/lib_Samsung_Resampler.so
-lib/lib_Samsung_SB_AM_for_ICS_v03008.so
-lib/libsamsungSoundbooster.so
-
-## Lights
-lib/hw/lights.msm7627a.so:lib/hw/lights.msm7x27a.so
 
 ## Thermal
 etc/thermald-8x25q-msm2-msm_therm.conf:etc/thermald.conf
@@ -227,3 +179,7 @@ usr/keylayout/gpio-keys.kl
 ## keychars
 
 usr/keychars/7x27a_kp.kcm
+
+## Gps
+
+etc/gps.conf
