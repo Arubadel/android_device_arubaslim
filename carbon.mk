@@ -12,21 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
-
-## Inherit common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+## Inherit common carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 ## Inherit device files
 $(call inherit-product, device/samsung/arubaslim/arubaslim.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := cm_arubaslim
+PRODUCT_NAME := carbon_arubaslim
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-I8262
-PRODUCT_RELEASE_NAME := GT-I8552
+PRODUCT_RELEASE_NAME := GT-I8262
 PRODUCT_DEVICE := arubaslim
 
 ## Bootanimation

@@ -21,10 +21,8 @@ include device/samsung/msm7x27a-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := arubaslim
 
 ## Kernel
+TARGET_KERNEL_SOURCE := kernel/samsung/arubaslim
 TARGET_KERNEL_CONFIG := arubaslim_defconfig
-
-## Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/arubaslim/bluetooth
 
 ## OTA assert
 TARGET_OTA_ASSERT_DEVICE := arubaslim,GT-I8262
